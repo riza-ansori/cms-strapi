@@ -1,0 +1,22 @@
+{
+  "collectionName": "panoramic_360_items",
+  "info": {
+    "singularName": "panoramic-360-item",
+    "pluralName": "panoramic-360-items",
+    "displayName": "Panoramic 360"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iframeUrl": {
+      "type": "string"
+    },
+    "react360Id": {
+      "type": "string"
+    }
+  }
+}

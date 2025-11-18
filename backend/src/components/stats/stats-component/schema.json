@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stats_stats_components",
+  "info": {
+    "displayName": "stats-component"
+  },
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "perfect_style_section",
+  "info": {
+    "singularName": "perfect-style-section",
+    "displayName": "Perfect Style Section",
+    "pluralName": "perfect-style-sections"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "highlightNumber": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false
+    }
+  }
+}

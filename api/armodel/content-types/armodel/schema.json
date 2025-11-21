@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ar_models",
+  "info": {
+    "singularName": "armodel",
+    "pluralName": "armodels",
+    "displayName": "AR Models"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "identifier": {
+      "type": "string",
+      "required": "true"
+    },
+    "thumbnail": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
+    },
+    "ar_url": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_steps",
+  "info": {
+    "singularName": "how-step",
+    "pluralName": "how-steps",
+    "displayName": "How Step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "icon": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "order": { "type": "integer", "default": 0 }
+  }
+}

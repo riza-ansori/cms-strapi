@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_nav_links",
+  "info": {
+    "displayName": "Navigation Link"
+  },
+  "attributes": {
+    "label": { "type": "string" },
+    "url": { "type": "string" }
+  }
+}

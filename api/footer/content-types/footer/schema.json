@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_content",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footer-content",
+    "displayName": "Footer Content"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "logo": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "description": { "type": "text" },
+    "address": { "type": "string" },
+    "email": { "type": "string" },
+    "phone": { "type": "string" },
+    "social_links": { "type": "json" }
+  }
+}

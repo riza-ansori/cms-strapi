@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "site_name": { "type": "string" },
+    "favicon": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "nav_links": { "type": "json" },
+    "hero_reference": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::heroslide.heroslide"
+    }
+  }
+}

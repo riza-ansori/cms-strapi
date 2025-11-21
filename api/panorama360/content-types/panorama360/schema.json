@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "info": {
+    "singularName": "panorama360",
+    "pluralName": "panorama360s",
+    "displayName": "Panorama 360"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "slug": { "type": "uid", "targetField": "title" },
+    "description": { "type": "text" },
+    "external_url": { "type": "string" }
+  }
+}

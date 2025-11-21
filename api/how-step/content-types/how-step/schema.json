@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "info": {
+    "singularName": "how-step",
+    "pluralName": "how-steps",
+    "displayName": "How It Works Step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "icon": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "order": { "type": "integer", "default": 0 }
+  }
+}

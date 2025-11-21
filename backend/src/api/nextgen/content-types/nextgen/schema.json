@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nextgens",
+  "info": {
+    "singularName": "nextgen",
+    "pluralName": "nextgens",
+    "displayName": "Nextgen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

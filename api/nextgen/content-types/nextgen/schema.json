@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "info": {
+    "singularName": "nextgen",
+    "pluralName": "nextgen-ai",
+    "displayName": "NextGen AI Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "text" },
+    "content": { "type": "richtext" },
+    "image": { "type": "media", "allowedTypes": ["images"], "multiple": false }
+  }
+}

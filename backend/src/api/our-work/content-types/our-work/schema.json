@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_works",
+  "info": {
+    "singularName": "our-work",
+    "pluralName": "our-works",
+    "displayName": "Our Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "before_image": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "after_image": { "type": "media", "allowedTypes": ["images"], "multiple": false },
+    "description": { "type": "text" },
+    "order": { "type": "integer", "default": 0 }
+  }
+}
